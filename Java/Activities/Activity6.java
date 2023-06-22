@@ -1,0 +1,26 @@
+package activities;
+
+public class Activity6 {
+    public static void main(String[] args) throws InterruptedException {
+        Plane plane=new Plane(10);
+        plane.onboard("Helen");
+        plane.onboard("Aparna");
+        plane.onboard("Rohit");
+        plane.onboard("Anupama");
+        plane.onboard("Shruti");
+        plane.onboard("Caroline");
+        plane.onboard("Chithra");
+        plane.onboard("Ashwini");
+        plane.onboard("Arya");
+        plane.onboard("Shauna");
+        plane.onboard("Roy");
+
+        System.out.println("Plane took off at:"+plane.takeOff());
+        System.out.println("Passengers on board:"+plane.getPassesngers());
+        Thread.sleep(5000);
+        plane.land();
+        System.out.println("Plane has landed");
+        System.out.println("Plane landed at:"+plane.getLastTimeLanded());
+
+    }
+}
