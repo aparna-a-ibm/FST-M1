@@ -16,7 +16,7 @@ public class Activity6 {
         plane.onboard("Roy");
 
         System.out.println("Plane took off at:"+plane.takeOff());
-        System.out.println("Passengers on board:"+plane.getPassesngers());
+        System.out.println("Passengers on board:"+plane.getPassengers());
         Thread.sleep(5000);
         plane.land();
         System.out.println("Plane has landed");
