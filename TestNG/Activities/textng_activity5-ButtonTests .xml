@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Activity5Suite" >
+    <test name="Activity5Tests" >
+        <groups>
+            <run>
+                <include name="ButtonTests" />
+            </run>
+        </groups>
+        <classes>
+            <class name="Activity5"/>
+        </classes>
+    </test>
+</suite>

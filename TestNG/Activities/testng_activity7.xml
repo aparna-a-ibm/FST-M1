@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Activity7Suite" >
+    <test name="Activity7Tests" >
+        <classes>
+            <class name="Activity7"/>
+        </classes>
+    </test>
+</suite>
