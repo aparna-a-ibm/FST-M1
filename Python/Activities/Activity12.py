@@ -1,0 +1,12 @@
+
+def getSum(num):
+    if num:
+        # Recursive function call
+        return num + getSum(num-1)
+    else:
+        return 0
+
+res = getSum(10)
+
+# Print result
+print("Sum of numbers from 0 to 10:"+str(res))
